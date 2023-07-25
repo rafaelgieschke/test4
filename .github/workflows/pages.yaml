@@ -1,7 +1,6 @@
 on:
   workflow_dispatch:
-  push:
-    main
+  push: {branches: main}
 
 permissions:
   contents: read
